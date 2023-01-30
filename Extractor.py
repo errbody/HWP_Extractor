@@ -39,7 +39,7 @@ def Init(hwpfile):
     BIN_ARRAY.extend(OLE_ARRAY)
     
     if BIN_ARRAY == []:
-        print("OLE Not Found!")
+        print("Not Found!")
         return 1
     
     ShowTree(BIN_ARRAY)
